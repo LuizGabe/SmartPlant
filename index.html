@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPlant</title>
+    <link rel="shortcut icon" href="https://www.santos.sp.gov.br/static/files_www/hotsite/compostasantos/bem-estar.png" type="image/x-icon">
+    <style>
+      div#visible {
+          display: none;
+      }
+      body {
+          background-color: rgb(198, 248, 198);
+          text-align: center;
+      }
+      meter {
+          width: 200px;
+          height: 25px;
+      }
+      img#perfil {
+          border-radius: 50%;
+          width: 180px;
+          height: 180px;
+      }
+      img#pumpIcon {
+          margin-top: 20px;
+          width: 40px;
+          height: 40px;
+      }
+      #container {
+          border-radius: 10px; 
+      }
+      #visible {
+          margin-top: 150px;
+      }
+      p {
+          margin: 0px;
+      }
+      
+    .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    }
+    .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+    }
+    .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    }
+    .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    }
+    input:checked + .slider {
+    background-color: green;
+    }
+    input:focus + .slider {
+    box-shadow: 0 0 1px green;
+    }
+    input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+    }
+    .slider.round {
+    border-radius: 34px;
+    }
+    .slider.round:before {
+    border-radius: 50%;
+    }
+    </style>
+    <script>
+        let user = prompt("Usuário: ");
+        let password = prompt("Senha:");
+        let delay = 0
+  
+        function bar(progresso) {
+            document.querySelector("#container").innerHTML = `<meter value='${progresso}' max='100'>${progresso}%</meter>`
+            document.querySelector("#porcentagem").innerHTML = `<p><b>${progresso}%</b></p>`
+        }
+        
+        
+    </script>
+</head>
+<body>
+    <div id="visible">
+        <img id="perfil" src="https://imgkub.com/images/2022/05/21/bb4d14fa-6cc7-4345-8e5b-b7ae8432aea2.jpg" alt="Imagem de uma plantinha aleatória da internet" border="0">
+        <div>
+            <p><b>Umidade do solo</b></p>
+            <div id="container"></div>
+            <div id="porcentagem"></div>
+        </div>
+        <img id="pumpIcon" src="https://imgkub.com/images/2022/05/21/pump.png" alt="pump.png" border="0">
+        <div id="button">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        
+    </div>
+    <script type="text/javascript">
+        if(user == "teste" && password == "teste") {
+            document.getElementById('visible').style.display = 'block';
+        } else {
+            setTimeout(function(){document.location.reload(true);},delay);
+        }
+        bar(56)
+    </script>
+</body>
+</html>

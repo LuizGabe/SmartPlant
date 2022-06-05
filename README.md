@@ -3,10 +3,10 @@
   Sabendo disso, abaixo terão alguns tópicos que este projeto irá seguir:
   <li><a href="#por-que-uma-smartplant">Por que uma SmartPlant?</a></li>
   <li><a href="#de-que-modo-este-projeto-se-desenvolverá">De que modo este projeto se desenvolverá?</a></li>
-  <li><a>Materiais Necessários</a></li>
-  <li><a>Web Server - Site Local</a></li>
-  <li><a>Código ESP8266</a></li>
-  <li><a>Esquema Elétrico</a></li>
+  <li><a href="#materiais-necessários">Materiais Necessários</a></li>
+  <li><a href="#web-server---site-local">Web Server - Site Local</a></li>
+  <li><a href="#código-esp8266">Código ESP8266</a></li>
+  <li><a href="#esquema-elétrico">Esquema Elétrico</a></li>
   
   
 <h2>Por que uma SmartPlant?</h2>

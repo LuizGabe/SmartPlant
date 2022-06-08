@@ -32,7 +32,7 @@
   <h6>Este módulo foi usado para que o ESP8266 consiga ligar ou desligar a bomba de água, pois a placa de prototipagem não consegue fornecer uma tensão e corrente para a bomba de água, assim o relé servirá como um interruptor que vai ligar a bomba com uma fonte de energia mais forte do que o ESP8266 consegue liberar, de modo que assim o ESP8266 consegue regar as plantas.</h6>
   
   <h5>Bomba de água</h5>
-  <h6>A bomba de água será a responsável por puxar a água de um balde e regar as plantas, esta bomba de água pode ser substituida por uma válvula solenóid, porém não consegui encontrar uma com uma tensão e corrente baixa para o projeto</h6>
+  <h6>A bomba de água será a responsável por puxar a água de um balde e regar as plantas, esta bomba de água pode ser substituida por uma válvula solenóid, porém não consegui encontrar uma com uma tensão e corrente baixa para o projeto.</h6>
   
   <h5>Fios para a ligação dos componentes</h5>
   <h6>Para a prototipagem foi usado fios do tipo "Jumper" e para o projeto final, foi usado fios de cabo de rede, são cabos simples e rígidos que são otimos bons para projetos assim.</h6>
@@ -44,6 +44,12 @@
     <li>Caixa de Proteção</li>
     <li>Fonte de energia mais otimizada para o proposito do projeto</li>
   (no meu caso vou colocar um PowerBank, futuramente vou colocar uma pequena célula fotovoltaica)
+  
+  <h5>Caixa de Proteção</h5>
+  <h6>Para este projeto que ficara fora de casa, decidi colocar dentro de uma case (caixa de proteção) que irá proteger os circuitos, neste projeto vou utilizar a estrutura de um roteador velho que tenho aqui em casa.</h6>
+  
+  <h5>Fonte de energia</h5>
+  <h6>Para este projeto decidi utilizar um power bank (carregador portátil) enquanto desenvolvia o protótipo, para a semi-finalização usei uma fonte de celular, e para a finalização usei uma placa solar dimensionada para o projeto, usei uma célula fotovoltáica de 12 volts e 2 wats.</h6>
    
 <h2>Web Server - Site Local</h2>
 <h5>Esta página será acessada com um ip interno e uma porta que está no código (Aqui em minha casa ficor <b>192.168.1.109:553</b>)<h5>

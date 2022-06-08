@@ -38,7 +38,7 @@
   <h6>Para a prototipagem foi usado fios do tipo "Jumper" e para o projeto final, foi usado fios de cabo de rede, são cabos simples e rígidos que são otimos bons para projetos assim.</h6>
   
   <h5>Fonte de energia</h5>
-  <h6>Para a prototipagem e para o começo dos testes finais foi usado um PowerBank (Carregador Portátil), para um desenvolvimento rápido. E para a finalização do projeto vou utilizar uma célula fotovoltaica de 12 volts e 2 wats, que será transformada em 5 volts e 4,8 wats, para carregar o banco de baterias do projeto, e a saída desse banco de baterias será de 5 volts, que entrará no relé e também se transformará em 3,3 volts e 7.27 wats e entrara no Sensor de umidade de solo e no ESP8266.</h6>
+  <h6>Para a prototipagem foi usado um PowerBank (Carregador Portátil) e a energia da saída do computador, de modo que o desenvolvimento seja mais rápido. </h6>
   
    <h3>Materiais Opcionais</h3>
     <li>Caixa de Proteção</li>
@@ -49,7 +49,7 @@
   <h6>Para este projeto que ficara fora de casa, decidi colocar dentro de uma case (caixa de proteção) que irá proteger os circuitos, neste projeto vou utilizar a estrutura de um roteador velho que tenho aqui em casa.</h6>
   
   <h5>Fonte de energia</h5>
-  <h6>Para este projeto decidi utilizar um power bank (carregador portátil) enquanto desenvolvia o protótipo, para a semi-finalização usei uma fonte de celular, e para a finalização usei uma placa solar dimensionada para o projeto, usei uma célula fotovoltáica de 12 volts e 2 wats.</h6>
+  <h6>Para este projeto decidi utilizar um power bank (carregador portátil) enquanto desenvolvia o protótipo, para a semi-finalização usei uma fonte de celular, e para a finalização do projeto vou utilizar uma célula fotovoltaica de 12 volts e 2 wats, que será transformada em 5 volts e 4,8 wats, para carregar o banco de baterias do projeto, e a saída desse banco de baterias será de 5 volts, que entrará no relé e também se transformará em 3,3 volts e 7.27 wats e entrara no Sensor de umidade de solo e no ESP8266.</h6>
    
 <h2>Web Server - Site Local</h2>
 <h5>Esta página será acessada com um ip interno e uma porta que está no código (Aqui em minha casa ficor <b>192.168.1.109:553</b>)<h5>
